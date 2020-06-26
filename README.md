@@ -3,4 +3,4 @@
 借鉴了HDRP的Camera-relative rendering思路：
 https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@7.1/manual/Camera-Relative-Rendering.html
 
-![text](https://github.com/CharlesFeng207/CameraRelativeRendering/blob/master/Pic/1.gif)
+![pic](https://github.com/CharlesFeng207/CameraRelativeRendering/blob/master/Pic/1.gif)
