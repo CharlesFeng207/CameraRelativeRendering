@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Charles\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Charles\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CameraRelativeRendering.562401714.00" t="ExcludeRecursive" />
+    <e p="E:\repos\CameraRelativeRendering" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CameraRelativeRendering.shader" t="Include" />
+        <e p="MeshAnimator" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MeshAnimationCreator.cs" t="Include" />
+          </e>
+          <e p="Example" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="AnimatorStateMachine.cs" t="Include" />
+              <e p="CrowdSpawner.cs" t="Include" />
+              <e p="PerformanceTester.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="AttachObjectToFace.cs" t="Include" />
+            <e p="MecanimMeshAnimatorController.cs" t="Include" />
+            <e p="MeshAnimation.cs" t="Include" />
+            <e p="MeshAnimationEvent.cs" t="Include" />
+            <e p="MeshAnimator.cs" t="Include" />
+            <e p="MeshAnimatorManager.cs" t="Include" />
+            <e p="MeshFrameData.cs" t="Include" />
+            <e p="Utilities" t="Include">
+              <e p="AllocatedArray.cs" t="Include" />
+              <e p="Comparers.cs" t="Include" />
+              <e p="GenericObjectPool.cs" t="Include" />
+              <e p="MatrixUtils.cs" t="Include" />
+              <e p="PooledDictionary.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Rotate.cs" t="Include" />
+        <e p="Test.cs" t="Include" />
+      </e>
+      <e p="CameraRelativeRendering.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

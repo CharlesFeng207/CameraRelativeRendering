@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482046}
+  - 33: {fileID: 3308168}
+  - 114: {fileID: 11454708}
+  - 23: {fileID: 2362608}
+  m_Layer: 0
+  m_Name: Audience_AnimatedMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2362608
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146916}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 365d6f894824d72449191b8607edbeb6, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3308168
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146916}
+  m_Mesh: {fileID: 4300000, guid: 81c1fe72b28480f40bb342ec9a984b08, type: 2}
+--- !u!114 &11454708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6cc279b0b49934980f1637ad388b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMesh: {fileID: 4300000, guid: 81c1fe72b28480f40bb342ec9a984b08, type: 2}
+  defaultAnimation: {fileID: 11400000, guid: b9f8b7700e3ed9545b89cee3d11fca25, type: 2}
+  animations:
+  - {fileID: 11400000, guid: b9f8b7700e3ed9545b89cee3d11fca25, type: 2}
+  - {fileID: 11400000, guid: 14545f47c5bc39b47ae13ab0156a1fb2, type: 2}
+  - {fileID: 11400000, guid: 8f7f619694e27ca4fb9a7a35e4077858, type: 2}
+  - {fileID: 11400000, guid: f9deaed223432754f8dab1878857beb5, type: 2}
+  - {fileID: 11400000, guid: 9b7e2f22d9629a04f91e051718f4ca69, type: 2}
+  - {fileID: 11400000, guid: 6761ef69aa5d80943b766019853254af, type: 2}
+  speed: 1
+  updateWhenOffscreen: 0
+  playAutomatically: 1
+  resetOnEnable: 1
+  eventReciever: {fileID: 0}
+  FPS: 30
+  threadedCrossfade: 1
+  meshFilter: {fileID: 3308168}
+  currentFrame: 0
+  LODCamera: {fileID: 0}
+  LODLevels:
+  - fps: 30
+    distance: 0
+  - fps: 15
+    distance: 20
+  - fps: 10
+    distance: 30
+  - fps: 5
+    distance: 40
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 146916}
+  m_IsPrefabParent: 1
